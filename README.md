@@ -11,8 +11,17 @@ Source: [INSEE](https://www.insee.fr) — French civil registry baby names, aggr
 | File | Description |
 |---|---|
 | `dpt2020.csv` | ~3.7 M rows — name, year, department, sex, count |
-| `departements-version-simplifiee.geojson` | Simplified department boundaries (metropolitan France) |
+| `departements-version-simplifiee.geojson` | Simplified department boundaries — used by GeoPandas to draw the choropleth map (Visualisation 2) |
 | `departements-avec-outre-mer.geojson` | Department boundaries including overseas territories |
+
+The GeoJSON files provide the polygon shapes of each French department. They are needed to render the interactive choropleth map, which colours each department according to the popularity of a selected name.
+
+> **Data files are not included in the repository.** Download them and place them at the project root before running the notebook:
+>
+> | File | Source |
+> |---|---|
+> | `dpt2020.csv` (76 MB) | [INSEE — Fichier des prénoms](https://www.insee.fr/fr/statistiques/2540004#consulter) |
+> | `departements-*.geojson` | [gregoiredavid/france-geojson](https://github.com/gregoiredavid/france-geojson) |
 
 Columns in `dpt2020.csv`: `sexe` (1 = male, 2 = female), `preusuel` (first name), `annais` (year), `dpt` (department code), `nombre` (birth count).
 
@@ -83,9 +92,9 @@ Open `visualisations_prenoms.ipynb` in VS Code (or JupyterLab), select the **Pyt
 ```
 .
 ├── visualisations_prenoms.ipynb   # Main notebook (3 visualisations)
-├── dpt2020.csv                    # INSEE baby names dataset
-├── departements-version-simplifiee.geojson
-├── departements-avec-outre-mer.geojson
+├── dpt2020.csv                    # INSEE baby names dataset (download, see Dataset)
+├── departements-version-simplifiee.geojson  # (download, see Dataset)
+├── departements-avec-outre-mer.geojson      # (download, see Dataset)
 ├── pyproject.toml                 # Poetry project file
 └── README.md
 ```

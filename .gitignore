@@ -1,3 +1,8 @@
+# Large data files
+dpt2020.csv
+departements-version-simplifiee.geojson
+departements-avec-outre-mer.geojson
+
 # Poetry virtual environment
 .venv/
 
