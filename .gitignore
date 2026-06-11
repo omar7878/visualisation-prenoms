@@ -3,6 +3,9 @@ dpt2020.csv
 departements-version-simplifiee.geojson
 departements-avec-outre-mer.geojson
 
+# Files to exclude
+Chloropleth maps in Altair.ipynb
+
 # Poetry virtual environment
 .venv/
 
