@@ -1,4 +1,4 @@
-Groupe O - FEKIH HASSEN Omar - IVARS Léo - DONNAT Alexandre - Rostan Guy 
+Groupe O - FEKIH HASSEN Omar - IVARS Léo - DONNAT Alexandre - ROSTAN Guy 
 
 # Baby Name Visualisations in France (1900–2020)
 
