@@ -1,3 +1,5 @@
+Groupe O - FEKIH HASSEN Omar - IVARS Léo - DONNAT Alexandre - Rostan Guy 
+
 # Baby Name Visualisations in France (1900–2020)
 
 Interactive data visualisations of French baby names from 1900 to 2020, built with **Altair** and **GeoPandas**. This project is the Week 2 submission for the Data Visualisation course.
