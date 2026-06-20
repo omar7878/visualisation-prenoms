@@ -44,10 +44,10 @@ An interactive **choropleth map** of metropolitan France.
 A dropdown lets you select any of the top 60 names; the colour encodes births **per 1,000 births** in each department (normalised to remove population-size bias).
 
 ### Visualisation 3 — Gender Effects
-> *Are there gender effects in the data? Does the popularity of names given to both sexes evolve consistently?*
+> *Are there gender effects in the data? Does the share of gender-neutral names evolve over time?*
 
-An interactive **stacked 100% area chart** showing the male/female breakdown of a name over time.  
-Only unisex names (given to both sexes at more than 5%) appear in the dropdown. A dashed line at 50% makes gender switches easy to spot.
+An interactive **line chart** showing the proportion of births given to gender-neutral names (given to both sexes at more than 5%) over time.  
+A dropdown lets you view either the aggregate trend across all unisex names (`All`) or zoom in on a single name from the list.
 
 ---
 
